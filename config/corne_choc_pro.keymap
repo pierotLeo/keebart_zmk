@@ -33,7 +33,11 @@
                             &kp LEFT_SHIFT  &kp LCTRL  &kp BACKSPACE                         &kp SPACE  &kp LS(COMMA)  &kp PERIOD
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
+            sensor-bindings =
+                <&inc_dec_kp DOWN_ARROW UP_ARROW>,
+                <&inc_dec_kp DOWN_ARROW UP_ARROW>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>,
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         lower_layer {
