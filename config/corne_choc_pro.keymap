@@ -86,7 +86,7 @@
         true_qwerty {
             display-name = "EXTRA 1";
             bindings = <
-&kp ESCAPE    &kp Q  &kp W  &kp E           &kp R             &kp T          &trans     &trans  &kp Y      &kp U       &kp I      &kp O      &kp MINUS      &kp UNDERSCORE
+&kp ESCAPE    &kp Q  &kp W  &kp E           &kp R             &kp T          &to 1      &trans  &kp Y      &kp U       &kp I      &kp O      &kp MINUS      &kp UNDERSCORE
 &kp TAB       &kp A  &kp S  &kp D           &kp F             &kp G          &kp ENTER  &sl 4   &kp H      &kp J       &kp K      &kp L      &kp SQT        &tog 5
 &kp LEFT_ALT  &kp Z  &kp X  &kp C           &kp V             &kp B                             &kp N      &kp M       &kp P      &kp COMMA  &kp SEMICOLON  &kp SLASH
                             &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp BACKSPACE                     &kp SPACE  &kp PERIOD  &kp COLON
@@ -112,7 +112,7 @@
         qwerty_numpad {
             display-name = "EXTRA 5";
             bindings = <
-&trans  &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &trans  &trans          &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LS(PRINTSCREEN)  &trans  &trans  &trans
+&trans  &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &to 1   &trans          &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LS(PRINTSCREEN)  &trans  &trans  &trans
 &trans  &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LC(C)  &trans  &kp KP_NUMLOCK  &kp MINUS        &kp PLUS             &kp EQUAL            &trans  &trans  &trans
 &trans  &kp COMMA  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LC(V)                          &kp LS(SLASH)    &kp N8               &kp F                &trans  &trans  &trans
                                     &kp KP_NUMBER_0  &kp PERIOD       &trans                             &trans           &trans               &trans
@@ -132,7 +132,7 @@
         numpad {
             display-name = "EXTRA 5";
             bindings = <
-&trans  &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &trans  &trans          &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LS(PRINTSCREEN)  &trans  &trans  &trans
+&trans  &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &to 1   &trans          &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LS(PRINTSCREEN)  &trans  &trans  &trans
 &trans  &kp GRAVE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LC(C)  &trans  &kp KP_NUMLOCK  &kp NUMBER_6     &kp LS(EQUAL)        &kp EQUAL            &trans  &trans  &trans
 &trans  &kp M      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LC(V)                          &kp LS(PERIOD)   &kp STAR             &kp F                &trans  &trans  &trans
                                     &kp KP_N0        &kp LS(COMMA)    &trans                             &trans           &trans               &trans
@@ -142,7 +142,7 @@
         bluetooth {
             display-name = "EXTRA 6";
             bindings = <
-&bt BT_CLR  &trans  &trans        &trans        &trans           &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &trans  &trans        &trans        &trans           &trans          &to 1   &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans  &trans        &trans        &rgb_ug RGB_TOG  &studio_unlock                  &trans  &trans  &trans  &trans  &trans  &trans
                                   &trans        &trans           &trans                          &trans  &trans  &trans
