@@ -102,9 +102,9 @@
         qwerty_symbols {
             display-name = "EXTRA 2";
             bindings = <
-&trans  &kp AT     &kp RA(E)  &trans     &kp LBRC  &kp RBRC  &trans  &trans  &kp DLLR   &kp RA(U)   &kp POUND          &trans  &trans  &trans
-&trans  &kp RA(A)  &kp EXCL   &kp QMARK  &kp LPAR  &kp RPAR  &trans  &trans  &kp AMPS   &kp PIPE    &kp DOUBLE_QUOTES  &trans  &trans  &trans
-&trans  &kp STAR   &kp TILDE  &trans     &kp LBKT  &kp RBKT                  &kp LT     &kp LS(GT)  &kp SLASH          &trans  &trans  &trans
+&trans  &kp AT     &kp RA(E)  &trans     &kp LBRC  &kp RBRC  &trans  &trans  &kp DLLR   &kp RA(U)   &kp POUND          &trans         &trans  &trans
+&trans  &kp RA(A)  &kp EXCL   &kp QMARK  &kp LPAR  &kp RPAR  &trans  &trans  &kp AMPS   &kp PIPE    &kp DOUBLE_QUOTES  &kp GRAVE      &trans  &trans
+&trans  &kp STAR   &kp TILDE  &trans     &kp LBKT  &kp RBKT                  &kp LT     &kp LS(GT)  &kp SLASH          &kp BACKSLASH  &trans  &trans
                               &trans     &trans    &trans                    &kp CARET  &trans      &trans
             >;
         };
