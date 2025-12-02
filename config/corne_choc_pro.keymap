@@ -21,6 +21,66 @@
             bindings = <&kp DEL>;
             key-positions = <41 0>;
         };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <0 1>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <0 2>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <0 3>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <0 4>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <0 5>;
+        };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <0 15>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <0 16>;
+        };
+
+        f8 {
+            bindings = <&kp F8>;
+            key-positions = <0 17>;
+        };
+
+        f9 {
+            bindings = <&kp F9>;
+            key-positions = <0 18>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <0 19>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <0 29>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <0 30>;
+        };
     };
 
     keymap {
@@ -123,7 +183,7 @@
             display-name = "EXTRA 4";
             bindings = <
 &trans  &kp RA(N0)     &kp N7            &kp NUMBER_2  &kp RA(NUMBER_4)  &kp RA(EQUAL)  &trans  &trans  &kp RIGHT_BRACKET     &kp SQT                   &kp RA(NUMBER_3)  &kp LS(LEFT_BRACE)  &trans  &trans
-&trans  &kp N0         &kp LS(SLASH)     &kp LS(M)     &kp N5            &kp MINUS      &trans  &trans  &kp NUMBER_1          &kp RA(NUMBER_6)          &kp NUMBER_3      &kp RA(N7)          &trans  &trans
+&trans  &kp N0         &kp SLASH         &kp LS(M)     &kp N5            &kp MINUS      &trans  &trans  &kp NUMBER_1          &kp RA(NUMBER_6)          &kp NUMBER_3      &kp RA(N7)          &trans  &trans
 &trans  &kp BACKSLASH  &kp RA(NUMBER_2)  &kp N9        &kp RA(N5)        &kp RA(MINUS)                  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(PERIOD)    &kp RA(N8)          &trans  &kp GRAVE
                                          &trans        &trans            &trans                         &kp LEFT_BRACKET      &trans                    &trans
             >;
@@ -134,7 +194,7 @@
             bindings = <
 &trans  &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans     &to 1   &trans          &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LS(PRINTSCREEN)  &trans  &trans  &trans
 &trans  &kp GRAVE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LC(C)  &trans  &kp KP_NUMLOCK  &kp NUMBER_6     &kp LS(EQUAL)        &kp EQUAL            &trans  &trans  &to 0
-&trans  &kp M      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LC(V)                          &kp LS(PERIOD)   &kp STAR             &kp F                &trans  &trans  &trans
+&trans  &kp M      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LC(V)                          &kp LS(PERIOD)   &kp KP_ASTERISK      &kp F                &trans  &trans  &trans
                                     &kp KP_N0        &kp LS(COMMA)    &trans                             &trans           &trans               &trans
             >;
         };
